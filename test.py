@@ -1,8 +1,12 @@
+from tkinter import END
+
+
 print('test0')
 
-import numpy as py
 
 
-testing 1
+print ("Brandon Testing")
 
-terlumun testing 
+
+
+
