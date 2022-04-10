@@ -35,9 +35,7 @@ class SI_SNR(nn.Module):
         self.eps = eps
         self.pit = pit
 
-    def forward(
-        self: "SI_SNR", Y_: torch.Tensor, Y: torch.Tensor
-    ) -> torch.Tensor:
+    def forward(self: "SI_SNR", Y_: torch.Tensor, Y: torch.Tensor) -> torch.Tensor:
         """Forward Pass
         zero-mean prior to calculation:
             s_target = (<ŝ,s>.s) / ||s||²

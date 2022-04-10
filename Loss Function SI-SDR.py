@@ -66,15 +66,7 @@ class ScaleInvariantSDR(EvaluationBase):
         noise = (e_res ** 2).sum()
         SDR = 10 * np.log10(signal / noise)
         
-        references_onto_residual = np.dot(reference_signals.transpose(), e_res)
-        b = np.linalg.solve(references_projection, references_onto_residual)
-
-        e_interf = np.dot(reference_signals , b)
-        e_artif = e_res - e_interf
-
-        SIR = 10 * np.log10(signal / (e_interf**2).sum())
-        SAR = 10 * np.log10(signal / (e_artif**2).sum())
-        return SDR, SIR, SAR
+        return SDR
     
     def _preprocess_sources(self):
         """
