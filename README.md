@@ -12,13 +12,23 @@ Run These Scripts in this order; create_dataset, Train_Model, GenerateDenoisedAu
 Note1: The Pathways that these scripts use to access our data must be changed to reflect the install pathways on your machine
 
 
-Note2: To utilize the evaluation portion, it is required that you install the transformers library (pip install transformers). 
+Note2: To utilize the evaluation portion, it is required that you install the transformers library (pip install transformers). Next import timeit, librosa, os, re, and torch
+
+Note 3:From Transformwers import Wav2Vec2ForCTC, Wav2Vec2Tokenizer (imports wav2vec)
+Note 4: To obtain word error rates for evaluation pip install jiwer and from jiwer import wer
+
+Note 5: Import xlswriter as xlswr (creates and excel file to obtain word error rate results)
+
+Note 6: If other audio files are being utilized, the reference text must be updated (line 106 to 111). Folder names, file locations for audio, must be updated as well.
+
+
+
+
 
 # Evaluation:
 To evaluate whether our denoised file performed better than the noisy file. Wav2Vec was utilized as an evaluation script. Wav2Vec was provided a clean audio file to obtain to obtain the error rate. Next the noisy audio file was processed through Wav2Vec to obtain a basis of perfomance reduction. Lastly the denoised audio file was processed through Wav2Vec to obtain the final results for improvement. 
 
-
-
+The evaluation script evaluates the following noise samples: airport, babble, car, exhibition, restaurant, street, train, and train station.
 
 
 
