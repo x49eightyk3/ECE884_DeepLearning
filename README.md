@@ -32,5 +32,23 @@ The evaluation script evaluates the following noise samples: airport, babble, ca
 
 ![image](https://user-images.githubusercontent.com/101994705/166176172-722807a4-76d6-4a3a-955b-d64afbbc856a.png)
 
+![image](https://user-images.githubusercontent.com/101994705/166176195-32bd0d48-ccae-407c-a14d-6e1d2423853a.png)
+
+![image](https://user-images.githubusercontent.com/101994705/166176203-33ea5d2b-0d31-495d-8946-7bb11eb3cef6.png)
+
+![image](https://user-images.githubusercontent.com/101994705/166176212-148658db-fe9b-453d-9a26-fba5917cb0b8.png)
+
+![image](https://user-images.githubusercontent.com/101994705/166176228-e55a0fa9-d0c2-4161-9d67-d43fc3cad316.png)
+
+![image](https://user-images.githubusercontent.com/101994705/166176233-b30c88d2-4da6-4df0-84f5-b0a0221dd388.png)
+
+![image](https://user-images.githubusercontent.com/101994705/166176240-13b99f8d-6938-4e62-842f-143bc49531ec.png)
+
+![image](https://user-images.githubusercontent.com/101994705/166176243-48d2a18a-6f77-442b-a4c8-89f649b34279.png)
+
+
+
+
+
 
 
