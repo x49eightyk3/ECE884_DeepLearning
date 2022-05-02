@@ -30,6 +30,7 @@ To evaluate whether our denoised file performed better than the noisy file. Wav2
 
 The evaluation script evaluates the following noise samples: airport, babble, car, exhibition, restaurant, street, train, and train station.
 
+![image](https://user-images.githubusercontent.com/101994705/166176172-722807a4-76d6-4a3a-955b-d64afbbc856a.png)
 
 
 
