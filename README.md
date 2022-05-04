@@ -26,7 +26,9 @@ Note 6: If other audio files are being utilized, the reference text must be upda
 
 
 # Evaluation:
-To evaluate whether our denoised file performed better than the noisy file. Wav2Vec was utilized as an evaluation script. Wav2Vec was provided a clean audio file to obtain to obtain the error rate. Next the noisy audio file was processed through Wav2Vec to obtain a basis of perfomance reduction. Lastly the denoised audio file was processed through Wav2Vec to obtain the final results for improvement. 
+To evaluate whether our denoised file performed better than the noisy file. Wav2Vec was utilized as an evaluation script. Wav2Vec was provided a clean audio file to obtain to obtain the error rate. Next the noisy audio file was processed through Wav2Vec to obtain a basis of perfomance reduction. Lastly the denoised audio file was processed through Wav2Vec to obtain the final results for improvement. To identify the improvement between the noisy and denoised files we apply the formula for Word Error Rate. This is an industry standard for calcuating how accurate a speech can be interpreted. 
+
+![image](https://user-images.githubusercontent.com/101994705/166613580-ffccccb4-6b35-41b4-ae74-74e1a8a0e84c.png)
 
 The evaluation script evaluates the following noise samples: airport, babble, car, exhibition, restaurant, street, train, and train station.
 
@@ -64,7 +66,7 @@ The overall results of the noisy data and denoised data are shown below:
 
 ![image](https://user-images.githubusercontent.com/101994705/166611647-400faf09-4439-4246-a45d-631ec367f51f.png)
 
-
+From the data above our denoised files, shows improvement compared to the base noisy file data. 
 
 Citations: 
 1. Subramanian, Dhilip. “Speech to Text with wav2vec 2.0.” KDnuggets, 2 Mar. 2021, https://www.kdnuggets.com/2021/03/speech-text-wav2vec.html. 
