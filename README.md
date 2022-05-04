@@ -51,8 +51,15 @@ The figure below shows denoising applied to the last noise file "Bring your best
 ![airport](https://user-images.githubusercontent.com/101994705/166605330-7dcf9cbd-f5f6-45e4-9295-6b7a621f29f5.PNG)
 
 
+In other noise settings we saw noticeable improvements. For example, the exhibition hall and the car noise dataset showed noticeable improvement when denoised and still allowed Wav2Vec to interpret the wav form information. 
+
+![image](https://user-images.githubusercontent.com/101994705/166609671-905ed608-bb5e-4362-8c76-87c3a5e5e165.png)
 
 
+![image](https://user-images.githubusercontent.com/101994705/166609700-22cecae2-4cd9-4ba6-aaa7-ef21ff2c3c7e.png)
+
+The overall results are shown below
+![image](https://user-images.githubusercontent.com/101994705/166610094-23f8b84f-4c3c-4965-b7d4-c2df6ac18c57.png)
 
 
 Citations: 
