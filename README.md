@@ -35,6 +35,11 @@ In the figures below are the results from utilizing the denoised neural network 
 
 ![image](https://user-images.githubusercontent.com/101994705/166176172-722807a4-76d6-4a3a-955b-d64afbbc856a.png)
 
+![airport](https://user-images.githubusercontent.com/101994705/166176352-d8f8a4bd-f7f4-4d19-b846-8c99eca8e15a.PNG)
+
+
+
+
 ![image](https://user-images.githubusercontent.com/101994705/166176195-32bd0d48-ccae-407c-a14d-6e1d2423853a.png)
 
 ![image](https://user-images.githubusercontent.com/101994705/166176203-33ea5d2b-0d31-495d-8946-7bb11eb3cef6.png)
@@ -52,7 +57,9 @@ In the figures below are the results from utilizing the denoised neural network 
 
 
 
-![airport](https://user-images.githubusercontent.com/101994705/166176352-d8f8a4bd-f7f4-4d19-b846-8c99eca8e15a.PNG)
+
+
+
 
 ![babble](https://user-images.githubusercontent.com/101994705/166176364-4fb2a1c1-9cd6-4388-8f7a-29b752c572a5.PNG)
 
