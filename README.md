@@ -40,9 +40,13 @@ The denoised files performed worse in SP02 and SP07. This is due to Wav2Vec inte
 
 
 As we can see below, Wav2Vec in this case was able to pick up a majority of the noisy file but when denoising was applied Wav2Vec was not able to accurately interpret the wav files. 
+
 SP01 - Ground Truth Statement: HE KNEW THE SKILL OF THE GREAT YOUNG ACTRESS
+
 sp02_airport_sn5.wav - Noisy File - HE KNEW THE SKILL OF THE GREAT YOUNG MAN
+
 Noisy0.wav - Denoised File - HO KNEW THE THILL OF HIS READ YOUNG ACT
+
 
 Graph 1.
 ![image](https://user-images.githubusercontent.com/101994705/166605282-3c81673a-243c-4b6a-8c99-3939159a5726.png)
