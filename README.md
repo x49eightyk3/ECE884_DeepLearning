@@ -33,47 +33,18 @@ The evaluation script evaluates the following noise samples: airport, babble, ca
 
 In the figures below are the results from utilizing the denoised neural network vs the noisy file. 
 
-![image](https://user-images.githubusercontent.com/101994705/166176172-722807a4-76d6-4a3a-955b-d64afbbc856a.png)
+In the graph below, we are able to see the performance of 6 sentences comparing the performance of the denoised file vs the noisy file interpreted through Wav2Vec. 
+The denoised files performed worse in SP02 and SP07. This is due to Wav2Vec interpeting a majority of the wav forms with an WER of .1111. The denoised file reduced a majority of the noisy feedback but also reduced the wavs and feedback that is used to interpret speech units. 
 
-![airport](https://user-images.githubusercontent.com/101994705/166176352-d8f8a4bd-f7f4-4d19-b846-8c99eca8e15a.PNG)
+![image](https://user-images.githubusercontent.com/101994705/166605282-3c81673a-243c-4b6a-8c99-3939159a5726.png)
 
+![image](https://user-images.githubusercontent.com/101994705/166606285-554df2b2-5921-4e9f-9f8e-896a5d63cefc.png)
 
+The figure below shows denoising applied to the last noise file "Bring your best compass to the thrid class". In this figure we are able to noticeably see that the additional feedback was reduced. Resulting in higher accuracy compared to the Wav2Vec interpreting the noisy file. 
 
-
-![image](https://user-images.githubusercontent.com/101994705/166176195-32bd0d48-ccae-407c-a14d-6e1d2423853a.png)
-
-![image](https://user-images.githubusercontent.com/101994705/166176203-33ea5d2b-0d31-495d-8946-7bb11eb3cef6.png)
-
-![image](https://user-images.githubusercontent.com/101994705/166176212-148658db-fe9b-453d-9a26-fba5917cb0b8.png)
-
-![image](https://user-images.githubusercontent.com/101994705/166176228-e55a0fa9-d0c2-4161-9d67-d43fc3cad316.png)
-
-![image](https://user-images.githubusercontent.com/101994705/166176233-b30c88d2-4da6-4df0-84f5-b0a0221dd388.png)
-
-![image](https://user-images.githubusercontent.com/101994705/166176240-13b99f8d-6938-4e62-842f-143bc49531ec.png)
-
-![image](https://user-images.githubusercontent.com/101994705/166176243-48d2a18a-6f77-442b-a4c8-89f649b34279.png)
+![airport](https://user-images.githubusercontent.com/101994705/166605330-7dcf9cbd-f5f6-45e4-9295-6b7a621f29f5.PNG)
 
 
-
-
-
-
-
-
-![babble](https://user-images.githubusercontent.com/101994705/166176364-4fb2a1c1-9cd6-4388-8f7a-29b752c572a5.PNG)
-
-![car](https://user-images.githubusercontent.com/101994705/166176376-500a70d8-c799-4834-b774-5c3bd88898b6.PNG)
-
-![ExhibitionHall](https://user-images.githubusercontent.com/101994705/166176380-54b4b885-6b28-468f-b26b-cf8d82dc1fb8.PNG)
-
-![restuarant](https://user-images.githubusercontent.com/101994705/166176386-89497163-a08e-40bc-ae0d-a57d4abb07f3.PNG)
-
-![street](https://user-images.githubusercontent.com/101994705/166176412-4f4618b5-cb19-4dd3-9fa1-5270203b7f48.PNG)
-
-![street](https://user-images.githubusercontent.com/101994705/166176418-94ed45fd-ad2c-4ead-b8e9-fdbe109a43d1.PNG)
-
-![street](https://user-images.githubusercontent.com/101994705/166176422-03cdc760-c009-4584-a7c9-a8f51db66473.PNG)
 
 
 
