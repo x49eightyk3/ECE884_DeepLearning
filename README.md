@@ -36,9 +36,12 @@ In the figures below are the results from utilizing the denoised neural network 
 In the graph below, we are able to see the performance of 6 sentences comparing the performance of the denoised file vs the noisy file interpreted through Wav2Vec. 
 The denoised files performed worse in SP02 and SP07. This is due to Wav2Vec interpeting a majority of the wav forms with an WER of .1111. The denoised file reduced a majority of the noisy feedback but also reduced the wavs and feedback that is used to interpret speech units. 
 
+Graph 1.
 ![image](https://user-images.githubusercontent.com/101994705/166605282-3c81673a-243c-4b6a-8c99-3939159a5726.png)
 
-![image](https://user-images.githubusercontent.com/101994705/166606285-554df2b2-5921-4e9f-9f8e-896a5d63cefc.png)
+Figure 1. SP02 denotes clean wav file, SP02_airport_sn5 denotes noisy file, and noisy1 denotes denoised file
+![image](https://user-images.githubusercontent.com/101994705/166606387-948c7a34-5fa9-49dd-9cc8-9d057f71d574.png)
+
 
 The figure below shows denoising applied to the last noise file "Bring your best compass to the thrid class". In this figure we are able to noticeably see that the additional feedback was reduced. Resulting in higher accuracy compared to the Wav2Vec interpreting the noisy file. 
 
