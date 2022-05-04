@@ -46,7 +46,7 @@ Graph 1.
 ![image](https://user-images.githubusercontent.com/101994705/166605282-3c81673a-243c-4b6a-8c99-3939159a5726.png)
 
 
-The figure below shows denoising applied to the last noise file "Bring your best compass to the thrid class". In this figure we are able to noticeably see that the additional feedback was reduced. Resulting in higher accuracy compared to the Wav2Vec interpreting the noisy file. 
+The figure below shows denoising applied to the last noise file "Bring your best compass to the third class". In this figure we are able to noticeably see that the additional feedback was reduced. Resulting in higher accuracy compared to the Wav2Vec interpreting the noisy file. 
 
 ![airport](https://user-images.githubusercontent.com/101994705/166605330-7dcf9cbd-f5f6-45e4-9295-6b7a621f29f5.PNG)
 
