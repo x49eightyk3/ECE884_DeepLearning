@@ -34,7 +34,13 @@ The evaluation script evaluates the following noise samples: airport, babble, ca
 In the figures below are the results from utilizing the denoised neural network vs the noisy file. 
 
 In the graph below, we are able to see the performance of 6 sentences comparing the performance of the denoised file vs the noisy file interpreted through Wav2Vec. 
-The denoised files performed worse in SP02 and SP07. This is due to Wav2Vec interpeting a majority of the wav forms with an WER of .1111. The denoised file reduced a majority of the noisy feedback but also reduced the wavs and feedback that is used to interpret speech units. 
+The denoised files performed worse in SP02 and SP07. This is due to Wav2Vec interpeting a majority of the wav forms with an WER of .1111. The denoised file reduced a majority of the noisy feedback but also reduced the sound and feedback that is used to interpret speech units. This results in Wav2Vec being unable to accurately interpret the wav forms. 
+
+
+As we can see below, Wav2Vec in this case was able to pick up a majority of the noisy file but when denoising was applied Wav2Vec was not able to accurately interpret the wav files. 
+SP01 - Ground Truth Statement: HE KNEW THE SKILL OF THE GREAT YOUNG ACTRESS
+sp02_airport_sn5.wav - Noisy File - HE KNEW THE SKILL OF THE GREAT YOUNG MAN
+Noisy0.wav - Denoised File - HO KNEW THE THILL OF HIS READ YOUNG ACT
 
 Graph 1.
 ![image](https://user-images.githubusercontent.com/101994705/166605282-3c81673a-243c-4b6a-8c99-3939159a5726.png)
