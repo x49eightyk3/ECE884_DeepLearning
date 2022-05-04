@@ -60,7 +60,10 @@ In other noise settings we saw noticeable improvements. For example, the exhibit
 
 The overall results of the noisy data and denoised data are shown below: 
 
-![image](https://user-images.githubusercontent.com/101994705/166610094-23f8b84f-4c3c-4965-b7d4-c2df6ac18c57.png)
+![image](https://user-images.githubusercontent.com/101994705/166611644-193f9d31-ff32-4de1-87a9-706a7e84f0d7.png)
+
+![image](https://user-images.githubusercontent.com/101994705/166611647-400faf09-4439-4246-a45d-631ec367f51f.png)
+
 
 
 Citations: 
