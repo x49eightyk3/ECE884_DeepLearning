@@ -39,9 +39,6 @@ The denoised files performed worse in SP02 and SP07. This is due to Wav2Vec inte
 Graph 1.
 ![image](https://user-images.githubusercontent.com/101994705/166605282-3c81673a-243c-4b6a-8c99-3939159a5726.png)
 
-Figure 1. SP02 denotes clean wav file, SP02_airport_sn5 denotes noisy file, and noisy1 denotes denoised file
-![image](https://user-images.githubusercontent.com/101994705/166606387-948c7a34-5fa9-49dd-9cc8-9d057f71d574.png)
-
 
 The figure below shows denoising applied to the last noise file "Bring your best compass to the thrid class". In this figure we are able to noticeably see that the additional feedback was reduced. Resulting in higher accuracy compared to the Wav2Vec interpreting the noisy file. 
 
