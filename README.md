@@ -3,9 +3,13 @@
 This project focuses on the automatic function of denoising audio signals using machine learning, and feeding clean audio output to a speech to text recognition model to calculate word error rate, compared to noisy audio.
 This project features the CNN created by Daitan Innovations (Link here), with the evaluation metrics performed using Meta's Wav2Vec. 
 # Pre-Requisites:
-Add pathways to all data used here
+Mozilla Common Voice: https://commonvoice.mozilla.org/en/datasets
+UrbanSound8k: https://urbansounddataset.weebly.com/urbansound8k.html
+Noizeus: https://ecs.utdallas.edu/loizou/speech/noizeus/
 
 Note: We recommoned using one of the smaller datasets from Mozilla Common Voice as the larger datasets may take an inordinate amount of time to download and uzip, potentially weeks. Though, naturally, the larger the dataset, the better the resulting model
+
+Note: We recommend using the cpu version of tensorflow as it is easier get running, though your model will train slower depending on your desktop "pip install tensorflow-cpu"
 # How to Run the Code:
 Run These Scripts in this order; create_dataset, Train_Model, GenerateDenoisedAudio. The first two can be ran in whichever IDE you favor, but the last file must be ran in Juypter Lab or Juypter Notebook.
 
