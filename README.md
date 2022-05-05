@@ -82,7 +82,8 @@ Noisy Interpretation: HHE KNEW THE PR OF THE GREAT YOUNG MAN  - Error Rate: 33.3
 Denoised Interpretation: HE KNEW THE TILL OF THE GREAT YOUNG ASTRI  - Error Rate: 22.2%<br/>
 
 
-SP07:
+**SP07:** 
+
 Ground Truth: WE FIND JOY IN THE SIMPLEST THINGS
 
 Noisy Interpretation: WO I BOY  B  - Error Rate: 100%
@@ -90,7 +91,8 @@ Noisy Interpretation: WO I BOY  B  - Error Rate: 100%
 Denoised Interpretation: WE FINDS YA WAY IN THE EBLET THEN  - Error Rate: 71%<br/>
 
 
-SP12:
+**SP12:** 
+
 Ground Truth: THE DRIP OF THE RAIN MADE A PLEASANT SOUND
 
 Noisy Interpretation: THE DRIP OF THE RAIN MADING LIV WIT DOWN  - Error Rate: 44.4%
@@ -98,7 +100,8 @@ Noisy Interpretation: THE DRIP OF THE RAIN MADING LIV WIT DOWN  - Error Rate: 44
 Denoised Interpretation: THE DRIP OF THE RAIN NATING LET ENT DOWN  - Error Rate: 44.4%<br/>
 
 
-SP18:
+**SP18:** 
+
 Ground Truth: THE FRIENDLY GANG LEFT THE DRUG STORE
 
 Noisy Interpretation: EFRIENDLY GAME O TAT THE DUG  - Error Rate: 85.714%
@@ -106,7 +109,7 @@ Noisy Interpretation: EFRIENDLY GAME O TAT THE DUG  - Error Rate: 85.714%
 Denoised Interpretation: THE FREELY GANG TAT THE DRAGONTO - Error Rate: 57.14%<br/>
 
 
-SP21:
+**SP21:**
 
 Ground Truth: CLAMS ARE SMALL ROUND SOFT AND TASTY
 
@@ -115,7 +118,7 @@ Noisy Interpretation: AAN BER EM ALL THE MAN AT AGOT O HIN  - Error Rate: 142.85
 Denoised Interpretation: LANBER AN USUAL MANIT ACOD AQE   - Error Rate: 100%<br/>
 
 
-SP27:
+**SP27:** 
 
 Ground Truth: BRING YOUR BEST COMPASS TO THE THIRD CLASS
 
