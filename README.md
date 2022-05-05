@@ -32,6 +32,13 @@ To evaluate whether our denoised file performed better than the noisy file. Wav2
 
 The evaluation script evaluates the following noise samples: airport, babble, car, exhibition, restaurant, street, train, and train station.
 
+The sentences utilized for evaluation are the following: 
+1. HE KNEW THE SKILL OF THE GREAT YOUNG ACTRESS
+2. WE FIND JOY IN THE SIMPLEST THINGS
+3. THE DRIP OF THE RAIN MADE A PLEASANT SOUND
+4. THE FRIENDLY GANG LEFT THE DRUG STORE
+5. CLAMS ARE SMALL ROUND SOFT AND TASTY
+6. BRING YOUR BEST COMPASS TO THE THIRD CLASS
 
 In the figures below are the results from utilizing the denoised neural network vs the noisy file. 
 
