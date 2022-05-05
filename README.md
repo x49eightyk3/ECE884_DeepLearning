@@ -14,6 +14,23 @@ Noizeus: https://ecs.utdallas.edu/loizou/speech/noizeus/
 Note: We recommoned using one of the smaller datasets from Mozilla Common Voice as the larger datasets may take an inordinate amount of time to download and uzip, potentially weeks. Though, naturally, the larger the dataset, the better the resulting model
 
 Note: We recommend using the cpu version of tensorflow as it is easier get running, though your model will train slower depending on your desktop "pip install tensorflow-cpu"
+
+# Methodolgy:
+
+![image](https://user-images.githubusercontent.com/101994992/166852539-5c1daf92-b389-4539-8be7-4c240ac01b72.png)
+
+
+# Architecture:
+The model is based on an encoder-decoder architecture, both containing repeated blocks of Convolution, ReLU, and Batch Normalization. In total, the network contains 16 of such blocks — which adds up to 33K parameters. 
+The model is fully convolutional, with no pooling or upscaling layers. The encoder-decoder layers are redundantly cascaded. The audio features extracted through convolution are expanded to a higher dimension with the encoder layers, then compressed down back to the original dimensionality of the noisy input.
+The model partitions the noisy audio into overlapping windows of frequency domain data as the input batch. This allows the model to autoregressively learn the output based on past information and is generally more powerfully then simply feeding the entire audio file.
+
+There are skip connections between some of the encoder and decoder blocks. These skip connections speed up convergence by letting the network learn the residuals between the layers, and also reduce vanishing gradients 
+
+With a given input of shape of 129 x 8, convolution is only performed along the frequency axis. This ensures that the frequency axis remains constant during forward propagation
+
+We then optimize the mean squared error (MSE) between the output of the network and the target (clean audio) signals using Adam Optimizer. Learning Rate: 3e-4, Stride Length: 1x1
+
 # How to Run the Code:
 Run These Scripts in this order; create_dataset, Train_Model, GenerateDenoisedAudio. The first two can be ran in whichever IDE you favor, but the last file must be ran in Juypter Lab or Juypter Notebook.
 
