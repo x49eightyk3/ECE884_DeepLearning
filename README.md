@@ -74,6 +74,7 @@ In the graph below, we see that the denoised data file improved a majority of th
 The sentences obtained from denoised files and noisy files for the train station are displayed below with the error rate associated to each sentence: 
 
 **SP02:** 
+
 Ground Truth: HE KNEW THE SKILL OF THE GREAT YOUNG ACTRESS
 
 Noisy Interpretation: HHE KNEW THE PR OF THE GREAT YOUNG MAN  - Error Rate: 33.3%
