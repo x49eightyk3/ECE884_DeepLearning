@@ -12,7 +12,7 @@ Run These Scripts in this order; create_dataset, Train_Model, GenerateDenoisedAu
 Note1: The Pathways that these scripts use to access our data must be changed to reflect the install pathways on your machine
 
 
-Note2: To utilize the evaluation portion, it is required that you install the transformers library (pip install transformers). Next import timeit, librosa, os, re, and torch
+Note2: To utilize the evaluation portion, it is required that you install the transformers, numpy, librosa, tensorflow, tokenizer, and torchaudio (pip install). Next import timeit, librosa, os, re, and torch.
 
 Note 3:From Transformwers import Wav2Vec2ForCTC, Wav2Vec2Tokenizer (imports wav2vec)
 Note 4: To obtain word error rates for evaluation pip install jiwer and from jiwer import wer
@@ -57,7 +57,7 @@ The figure below shows denoising applied to the last noise file "Bring your best
 ![airport](https://user-images.githubusercontent.com/101994705/166605330-7dcf9cbd-f5f6-45e4-9295-6b7a621f29f5.PNG)
 
 
-In other noise settings we saw noticeable improvements. For example, the exhibition hall and the car noise dataset showed noticeable improvement when denoised and still allowed Wav2Vec to interpret the wav form information. 
+In other noise settings we saw noticeable improvements. For example, the exhibition hall and the car noise dataset showed noticeable improvement when denoised and still allowed Wav2Vec to interpret the wav form information. From the exhibition hall graph, 66% of the sentences were improved compared to the noisy data and 33% of them had the same error rate. 
 
 ![image](https://user-images.githubusercontent.com/101994705/166609671-905ed608-bb5e-4362-8c76-87c3a5e5e165.png)
 
@@ -70,7 +70,7 @@ The overall results of the noisy data and denoised data are shown below:
 
 ![image](https://user-images.githubusercontent.com/101994705/166611647-400faf09-4439-4246-a45d-631ec367f51f.png)
 
-From the data above our denoised files, shows improvement compared to the base noisy file data. 
+From the data above our denoised files, shows improvement compared to the base noisy file data. 81% of the data was improved or remained the same with only 19 percented having higher word error rates in comparison to the the noisy files. To further improve and increase word error rate additional investigations should be held to increase clarity of the original sentence or prevent distortion. 
 
 Citations: 
 1. Subramanian, Dhilip. “Speech to Text with wav2vec 2.0.” KDnuggets, 2 Mar. 2021, https://www.kdnuggets.com/2021/03/speech-text-wav2vec.html. 
