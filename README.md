@@ -59,12 +59,12 @@ To evaluate whether our denoised file performed better than the noisy file. Wav2
 The evaluation script evaluates the following noise samples: airport, babble, car, exhibition, restaurant, street, train, and train station.
 
 The sentences utilized for evaluation are the following: 
-1. HE KNEW THE SKILL OF THE GREAT YOUNG ACTRESS
-2. WE FIND JOY IN THE SIMPLEST THINGS
-3. THE DRIP OF THE RAIN MADE A PLEASANT SOUND
-4. THE FRIENDLY GANG LEFT THE DRUG STORE
-5. CLAMS ARE SMALL ROUND SOFT AND TASTY
-6. BRING YOUR BEST COMPASS TO THE THIRD CLASS
+1. SP02: HE KNEW THE SKILL OF THE GREAT YOUNG ACTRESS
+2. SP07: WE FIND JOY IN THE SIMPLEST THINGS
+3. SP12: THE DRIP OF THE RAIN MADE A PLEASANT SOUND
+4. SP18: THE FRIENDLY GANG LEFT THE DRUG STORE
+5. SP21: CLAMS ARE SMALL ROUND SOFT AND TASTY
+6. SP27: BRING YOUR BEST COMPASS TO THE THIRD CLASS
 
 In the figures below are the results from utilizing the denoised neural network vs the noisy file. 
 
@@ -142,7 +142,7 @@ The overall results of the noisy data and denoised data are shown below:
 
 ![image](https://user-images.githubusercontent.com/101994705/166611647-400faf09-4439-4246-a45d-631ec367f51f.png)
 
-From the data above our denoised files, shows improvement compared to the base noisy file data. 81% of the data was improved or remained the same with only 19 percented having higher word error rates in comparison to the the noisy files. To further improve and increase word error rate additional investigations should be held to increase clarity of the original sentence or prevent distortion. 
+From the data above our denoised files, shows improvement compared to the base noisy file data. 81% of the data was improved or remained the same with only 19 percented having higher word error rates in comparison to the the noisy files. To further improve and increase word error rate additional investigations should be held to prevent distortion. 
 
 Citations: 
 1. Subramanian, Dhilip. “Speech to Text with wav2vec 2.0.” KDnuggets, 2 Mar. 2021, https://www.kdnuggets.com/2021/03/speech-text-wav2vec.html. 
