@@ -68,9 +68,47 @@ The sentences utilized for evaluation are the following:
 
 In the figures below are the results from utilizing the denoised neural network vs the noisy file. 
 
-In the graph below, we see that the denoised data file improved a majority of the sentences Word Error Rates when compared to Wav2Vec just interpreting the noisy files. 
+In the graph below, we see that the denoised data file improved a majority of the sentences Word Error Rates when compared to Wav2Vec just interpreting the noisy files.
 ![image](https://user-images.githubusercontent.com/101994705/166851695-13e3c0a1-727c-4b75-bd3d-2d2c0b130bc0.png)
 
+The sentences obtained from denoised files and noisy files for the train station are displayed below with the error rate associated to each sentence: 
+
+SP02:
+Ground Truth: HE KNEW THE SKILL OF THE GREAT YOUNG ACTRESS  
+Noisy Interpretation: HHE KNEW THE PR OF THE GREAT YOUNG MAN  - Error Rate: 33.3%
+Denoised Interpretation: HE KNEW THE TILL OF THE GREAT YOUNG ASTRI  - Error Rate: 22.2%
+
+
+SP07:
+Ground Truth: WE FIND JOY IN THE SIMPLEST THINGS
+Noisy Interpretation: WO I BOY  B  - Error Rate: 100%
+Denoised Interpretation: WE FINDS YA WAY IN THE EBLET THEN  - Error Rate: 71%
+
+
+SP12:
+Ground Truth: THE DRIP OF THE RAIN MADE A PLEASANT SOUND
+Noisy Interpretation: THE DRIP OF THE RAIN MADING LIV WIT DOWN  - Error Rate: 44.4%
+Denoised Interpretation: THE DRIP OF THE RAIN NATING LET ENT DOWN  - Error Rate: 44.4%
+
+
+SP18:
+Ground Truth: THE FRIENDLY GANG LEFT THE DRUG STORE
+Noisy Interpretation: EFRIENDLY GAME O TAT THE DUG  - Error Rate: 85.714%
+Denoised Interpretation: THE FREELY GANG TAT THE DRAGONTO - Error Rate: 57.14%
+
+
+SP21:
+Ground Truth: CLAMS ARE SMALL ROUND SOFT AND TASTY
+Noisy Interpretation: AAN BER EM ALL THE MAN AT AGOT O HIN  - Error Rate: 142.85%
+Denoised Interpretation: LANBER AN USUAL MANIT ACOD AQE   - Error Rate: 100%
+
+
+SP27:
+Ground Truth: BRING YOUR BEST COMPASS TO THE THIRD CLASS
+Noisy Interpretation: BRING YOUR BECD CUPE TTO THE FAR CLAD - Error Rate: 62.5%
+Denoised Interpretation: BRING YOUR BED CUMBERT TO THE TIRY CLAM  - Error Rate: 50.0%
+
+As we can see 5 sentences showed improvement and only one sentence had zero improvement. From this data we were able to obtain an average of 21% improvement using the denoising neural network. 
 
 In other noise settings we saw noticeable improvements. For example, the exhibition hall and the car noise dataset showed noticeable improvement when denoised and still allowed Wav2Vec to interpret the wav form information. From the exhibition hall graph, 66% of the sentences were improved compared to the noisy data and 33% of them had the same error rate. 
 
