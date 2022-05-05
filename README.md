@@ -50,26 +50,8 @@ The sentences utilized for evaluation are the following:
 
 In the figures below are the results from utilizing the denoised neural network vs the noisy file. 
 
-In the graph below, we are able to see the performance of 6 sentences comparing the performance of the denoised file vs the noisy file interpreted through Wav2Vec. 
-The denoised files performed worse in SP02 and SP07. This is due to Wav2Vec interpeting a majority of the wav forms with an WER of .1111. The denoised file reduced a majority of the noisy feedback but also reduced the sound and feedback that is used to interpret speech units. This results in Wav2Vec being unable to accurately interpret the wav forms. 
-
-
-As we can see below, Wav2Vec in this case was able to pick up a majority of the noisy file but when denoising was applied Wav2Vec was not able to accurately interpret the wav files. 
-
-SP01 - Ground Truth Statement: HE KNEW THE SKILL OF THE GREAT YOUNG ACTRESS
-
-sp02_airport_sn5.wav - Noisy File - HE KNEW THE SKILL OF THE GREAT YOUNG MAN
-
-Noisy0.wav - Denoised File - HO KNEW THE THILL OF HIS READ YOUNG ACT
-
-
-Graph 1.
-![image](https://user-images.githubusercontent.com/101994705/166605282-3c81673a-243c-4b6a-8c99-3939159a5726.png)
-
-
-The figure below shows denoising applied to the last noise file "Bring your best compass to the third class". In this figure we are able to noticeably see that the additional feedback was reduced. Resulting in higher accuracy compared to the Wav2Vec interpreting the noisy file. 
-
-![airport](https://user-images.githubusercontent.com/101994705/166605330-7dcf9cbd-f5f6-45e4-9295-6b7a621f29f5.PNG)
+In the graph below, we see that the denoised data file improved a majority of the sentences Word Error Rates when compared to Wav2Vec just interpreting the noisy files. 
+![image](https://user-images.githubusercontent.com/101994705/166851695-13e3c0a1-727c-4b75-bd3d-2d2c0b130bc0.png)
 
 
 In other noise settings we saw noticeable improvements. For example, the exhibition hall and the car noise dataset showed noticeable improvement when denoised and still allowed Wav2Vec to interpret the wav form information. From the exhibition hall graph, 66% of the sentences were improved compared to the noisy data and 33% of them had the same error rate. 
