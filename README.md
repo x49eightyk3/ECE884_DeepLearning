@@ -4,7 +4,9 @@ This project focuses on the automatic function of denoising audio signals using 
 This project features the CNN created by Daitan Innovations (Link here), with the evaluation metrics performed using Meta's Wav2Vec. 
 # Pre-Requisites:
 Mozilla Common Voice: https://commonvoice.mozilla.org/en/datasets
+
 UrbanSound8k: https://urbansounddataset.weebly.com/urbansound8k.html
+
 Noizeus: https://ecs.utdallas.edu/loizou/speech/noizeus/
 
 Note: We recommoned using one of the smaller datasets from Mozilla Common Voice as the larger datasets may take an inordinate amount of time to download and uzip, potentially weeks. Though, naturally, the larger the dataset, the better the resulting model
